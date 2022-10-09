@@ -1,0 +1,274 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    margin:0;
+    font-family: 'Open Sans';
+    background: linear-gradient(-45deg, #0e0e0e,#010d1f,#000000,#1F1A17);
+    background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    background-position: fixed;
+    transition: all 1s;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.material-symbols-outlined{
+    transform: translateX(-2px);
+    color:#010d1f;
+}
+.back-button{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(178, 178, 178, 0.601);
+    border-radius: 50%;
+    margin:10px;
+    transform: translateY(30%);
+    box-shadow: 0px 0px 10px rgb(15, 0, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-button-container{
+    position:fixed;
+    top: 0%;
+}
+
+.back-button:hover{
+    background-color: #282828;
+    transition: all 0.2s ease-in-out;
+}
+
+.top{
+    height: 40ch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-left:20%;
+    padding-right:20%;
+    background-image: url(tanzania_pic.jpeg);
+    background-size: cover;
+    top:0%;
+
+}
+h1{
+    padding: 2%;
+    text-align: center;  
+    font-size: 5em;
+    font-weight: 500;
+    font-family: 'Playfair Display';
+    text-shadow:0px 0px 20px rgba(29, 23, 74, 0.632);
+    color: white;
+
+}
+.description{
+    background-color: white;
+    font-size: 1em;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    color: black;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 100;
+    
+}
+.description-text{
+    margin:10px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.headshots{
+    background-image: url('stars.png');
+    background-size: 120%;
+    background-attachment: fixed;
+    height:fit-content;
+    flex-direction: column;
+    display: flex;
+    align-items: top;
+    justify-content: top;
+}
+.quiz{
+    background-image: url(tanzania_pic.jpeg);
+    background-size: cover;
+    height: 50ch;
+}
+
+#country-name{
+    font-size:3.8em;
+    font-weight: 900;
+}
+.title{
+    font-size: 2em;
+    top:0%;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display','Open Sans';
+
+}
+p{
+    margin:10%
+}
+.headshot-container{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+    color: white;
+}
+.headshot-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px
+}
+.headshot-photo{
+    height:120px
+}
+
+.headshot-name{
+    font-weight: 100;
+    font-size: 1em;
+    width:170px;
+    text-align: center;
+}
+.leader-name{
+    font-weight:500;
+    font-size:0.8em;
+    margin:0;
+    transform: translateY(-70%);
+}
+.quiz{
+    font-size: 1em;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    color: white;
+    text-align: center;
+    line-height: 1.5em;
+    font-weight: 300;   
+    font-family: 'Playfair Display','Open Sans';
+
+    
+}
+.quiz-container{
+    flex-grow: 1;
+    background-color: rgb(0,0,0,0.5);
+    padding:30px;
+    font-family: 'Open Sans','Playfair display';
+    font-size:1em;
+}
+.quiz-name{
+    color:white;
+    font-weight: 700;
+    margin-bottom:20px;
+    font-size:1.3em;
+    font-family: 'Playfair Display','Open Sans';
+}
+.answer{
+    color:black;
+    background-color: white;
+    margin:7px;
+    border-radius: 8px;
+}
+.answer:hover{
+    background-color: rgb(15, 0, 35);
+    transition: all 0.25s ease-in-out;
+}
+.correct_item{
+    width:100px;
+    height: 100px;
+    background-color: rgba(23, 255, 127, 1);
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.correct-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.correct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height:90px;
+    border-radius: 50px;
+}
+.correct-text{
+    margin:10px;
+}
+.wrong-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height:90px;
+    border-radius: 50px;
+}
+.wrong-text{
+    margin:10px;
+}
+
+@media all and (min-width: 600px){
+    h1{
+        padding: 2%;
+        text-align: center;  
+        font-size: 6em;
+        font-weight: 500;
+        font-family: 'Playfair Display';
+        text-shadow:0px 0px 20px rgba(29, 23, 74, 0.632);
+        color: white;
+    }
+    .headshot-item{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin:10px;
+        margin-left:30px;
+        margin-right:30px;
+    }
+    .headshot-container{
+        margin: 20px;
+    }
+    .headshot-photo{
+        height:150px
+    }
+    .title{
+        font-size: 2.8em;
+        top:0%;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+        font-family: 'Playfair Display','Open Sans';
+        transform: translateY(150%);
+    
+    }
+
+}

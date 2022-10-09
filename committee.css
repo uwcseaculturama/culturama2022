@@ -1,0 +1,209 @@
+.committee{
+    background-color: white;
+    background-image: url('sec-three-bg.jpeg');
+    background-size: cover;
+
+    height:fit-content;
+    flex-direction: column;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    color: white;
+    font-family: 'Open Sans';
+}
+.committee-display{
+    display: flex;
+    flex-direction: column;
+    height: 300ch;
+    align-items: top;
+    justify-content: space-around;
+    
+}
+.committee-list{
+    display: flex;
+    height:20vh;
+    flex-direction: column;
+    justify-content: center;
+
+ 
+    color:white;
+    font-family: 'Open Sans';
+
+    
+}
+
+.committee-list ul{
+    list-style-type:none ;
+}
+.committee-list li{
+    line-height: 1.6em;
+}
+
+#list-title{
+    font-size: 1.4em;
+    font-weight: 300;
+    margin:0;
+    font-family:'Open Sans';
+    margin-top:10px;
+}
+#committee-section{
+    background-color: rgba(0,0,0,0.5);
+    flex-grow: 1;
+    margin: 10px;
+}
+#staff-committee{
+    
+    background-color: rgba(0,0,0,0.5);
+    flex-grow: 1;
+    margin: 10px;
+}
+#sub-committee{
+    background-color: rgba(0,0,0,0.5);
+    flex-grow: 1;
+    
+    margin: 10px;
+}
+#cultural-advisors{
+    background-color: rgba(0,0,0,0.5);
+    flex-grow: 1;
+    margin: 10px;
+}
+#cultural-advisors li{
+    margin-right:10px;
+}
+
+#fill-space{
+    opacity: 0;
+    line-height: 0;
+}
+#role-title{
+    font-weight: 700;
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+.committee-container{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    flex-wrap: wrap;
+    color: white;
+    
+}
+@media all and (min-width: 600px){
+    .committee-container{
+
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        color: white;
+    }
+
+    .committee-list{
+        display: flex;
+        height:20vh;
+        flex-direction: column;
+        justify-content: center;
+    
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 5px;
+        margin-right: 5px;
+        color:white;
+        font-family: 'Open Sans';
+    
+        
+    }
+    .headshot-item ul{
+        list-style-type: none;
+        padding:20px;
+        background-color: rgba(0,0,0,0.5);
+        flex-grow: 1;
+        width:500px;
+    }
+
+    #list-title{
+        font-size: 1.5em;
+        font-weight: 500;
+        margin:0;
+        font-family:'Open Sans';
+        margin-top:10px;
+        transform: translateY(2%);
+    }
+}
+@media all and (max-width: 600px){
+    .committee{
+        background-color: white;
+        background-image: url('sec-three-bg.jpeg');
+        background-size: cover;
+    
+        height:fit-content;
+        flex-direction: column;
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        color: white;
+        font-family: 'Open Sans';
+    }
+    
+    .committee-display{
+        height:100ch
+    }
+    .committee-list{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    #info-cm{
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+    #info-ca{
+        font-size: 1em;
+        line-height: 1.5em;
+        margin:10;
+    }
+    .committee-container{
+        margin:20px;
+        display: flex;
+        justify-content: center;
+        align-items: top;
+        flex-wrap: wrap;
+        color: white;
+    }
+}
+
+.committee-title{
+    font-size: 2em;
+    top:0%;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display';
+}
+
+
+
+.headshot-item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5px
+}
+
+#committee-des{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.headshot-item ul{
+    list-style-type: none;
+    padding:20px;
+    background-color: rgba(0,0,0,0.5);
+    flex-grow: 1;
+}
+.headshot-item li{
+    line-height: 1.6em;
+}
