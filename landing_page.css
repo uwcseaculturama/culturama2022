@@ -23,7 +23,8 @@
     color:white ;
     line-height: 1.1em;
     transform: translateY(58%);
-    text-shadow: 0px 0px 10px black;
+    text-shadow: 0px 0px 10px rgb(27, 0, 61);
+    font-family: 'Playfair Display';
 
 
     /*transform: translateY(25%) translateX(7%);*/
