@@ -18,7 +18,7 @@ wrong_icon.style.display='none'
 wrong_text.style.display='none'
 
 back_button.addEventListener('click',function(){
-    window.open("index.html", "_self");
+    window.open("index", "_self");
 })
 
 selector_1.addEventListener('click',function(){
