@@ -269,5 +269,18 @@ p{
         transform: translateY(150%);
     
     }
-
+    .top{
+        height: 40ch;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding-left:20%;
+        padding-right:20%;
+        background-image: url(india_photo.jpeg);
+        background-size: cover;
+        top:0%;
+        background-position: 0% 20%;
+    
+    }
 }
